@@ -1,0 +1,67 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore node_modules folder (Node.js projects)
+node_modules/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Java compiled files
+*.class
+
+# Ignore compiled libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore executables
+*.exe
+*.out
+
+# Ignore build directories
+build/
+dist/
+out/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore environment variables
+.env
+
+# Ignore JetBrains project-specific files (for IntelliJ, PyCharm, WebStorm, etc.)
+*.iml
+.idea/
+
+# Ignore temporary files created by editors
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Ignore temporary files created by operating systems
+*.bak
+*.tmp
+*.swp
